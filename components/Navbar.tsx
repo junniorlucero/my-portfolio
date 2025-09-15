@@ -15,7 +15,7 @@ export default function Navbar() {
         <ThemeToggle />
 
         {/* right side */}
-        <div className="flex items-center gap-3 md:gap-6">
+        <div className="sm:space-x-4 flex items-center gap-3 md:gap-6">
           {/* text links: hidden on small, flex from md+ */}
 
           <div className="md:flex items-center gap-6">
