@@ -9,9 +9,7 @@ export default function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []); //here we run the setMounted function and set it to true, only after the first render.
 
-
-
-      if (!mounted) {
+  if (!mounted) {
     return (
       <button
         aria-label="Toggle theme"
@@ -20,12 +18,11 @@ export default function ThemeToggle() {
         tabIndex={-1}
       >
         <span className="block h-5 w-5" />
-      </button> 
+      </button>
     );
   }
 
   const isDark = resolvedTheme === "dark";
-
 
   return (
     <button
