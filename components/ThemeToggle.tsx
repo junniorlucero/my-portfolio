@@ -9,10 +9,23 @@ export default function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []); //here we run the setMounted function and set it to true, only after the first render.
 
-  const isDark =
-    mounted &&
-    (theme === "dark" || //we are in dark mode if the component is mounted and either the theme is manually set to dark or the system theme is dark
-      (theme === "system" && resolvedTheme === "dark"));
+
+
+      if (!mounted) {
+    return (
+      <button
+        aria-label="Toggle theme"
+        className="inline-flex h-9 w-9 items-center justify-center rounded-full ring-1 ring-black/10 dark:ring-white/10"
+        aria-hidden="true"
+        tabIndex={-1}
+      >
+        <span className="block h-5 w-5" />
+      </button>
+    );
+  }
+
+  const isDark = resolvedTheme === "dark";
+
 
   return (
     <button
