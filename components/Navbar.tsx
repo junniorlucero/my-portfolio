@@ -17,8 +17,8 @@ export default function Navbar() {
         {/* right side */}
         <div className="flex items-center gap-3 md:gap-6">
           {/* text links: hidden on small, flex from md+ */}
-          
-          <div className="hidden md:flex items-center gap-6">
+
+          <div className="md:flex items-center gap-6">
             <a
               href="#hero"
               className="font-semibold text-xs md:text-sm text-neutral-900 dark:text-neutral-100
