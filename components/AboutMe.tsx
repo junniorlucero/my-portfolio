@@ -7,8 +7,8 @@ export default function aboutMe() {
         id="aboutMe"
         className="min-h-screen mx-auto max-w-7xl px-6 py-20"
       >
-        <h2 className="text-4xl font-semibold text-neutral-900 dark:text-neutral-100">
-          About Me ☺️
+        <h2 className="text-4xl font-semibold text-neutral-900 dark:text-neutral-100 break-words text-balance">
+          About Me 😁
         </h2>
 
         <div className="relative -mt-8 flex flex-col items-center">

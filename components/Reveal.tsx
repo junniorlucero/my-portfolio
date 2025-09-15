@@ -50,7 +50,7 @@ export default function Reveal({
       ref={ref}
       className={[
         "opacity-0 translate-y-6",
-        "motion-safe:transition:all motion-safe:duration-700 motion-safe:ease-out",
+        "motion-safe:transition-all motion-safe:duration-700 motion-safe:ease-out",
         visible ? "opacity-100 translate-y-0" : "",
         className,
       ].join(" ")}
