@@ -20,7 +20,7 @@ export default function ThemeToggle() {
         tabIndex={-1}
       >
         <span className="block h-5 w-5" />
-      </button>
+      </button> 
     );
   }
 
