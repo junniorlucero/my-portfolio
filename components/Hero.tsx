@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="text-center">
           <TextRevealTW
             text="Hello, I'm Junnior!"
-            className="text-7xl font-bold text-blue-600 dark:text-blue-400"
+            className="text-7xl font-bold text-blue-600 dark:text-blue-400 break-words text-balance"
           />
           <p className="mt-6 text-lg text-black dark:text-white">
             Aspiring Software Engineer • MIS/CS @ UMN
