@@ -51,6 +51,17 @@ export default function Navbar() {
               className="h-10 w-10 hover:opacity-80 text-neutral-900 dark:text-neutral-100 transition-transform duration-300 ease-out hover:-translate-y-1"
             />
           </a>
+          <a
+            href="https://github.com/junniorlucero"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/github.png"
+              alt={`github logo`}
+              className="h-10 w-10 hover:opacity-80 text-neutral-900 dark:text-neutral-100 transition-transform duration-300 ease-out hover:-translate-y-1"
+            />
+          </a>
         </div>
       </nav>
     </header>
