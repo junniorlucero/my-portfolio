@@ -49,8 +49,8 @@ export default function Experiences() {
           const leftSide = i % 2 === 0; //see if the index is even or odd, if even then starts on the left, if odd goes on the right
 
           const sideClasses = leftSide
-            ? "md:col-start-1 md:justify-self-end text-left pr-6"
-            : "md:col-start-3 md:justify-self-start text-left pl-6";
+            ? "md:col-start-1 md:justify-self-end text-left md:pr-6"
+            : "md:col-start-3 md:justify-self-start text-left md:pl-6";
 
           return (
             <li key={company} className="md:grid md:grid-cols-[1fr_48px_1fr]">

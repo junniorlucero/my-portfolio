@@ -15,10 +15,10 @@ export default function Navbar() {
         <ThemeToggle />
 
         {/* right side */}
-        <div className="sm:text-xs flex items-center gap-3 md:gap-6">
+        <div className="flex items-center gap-3 md:gap-6T">
           {/* text links: hidden on small, flex from md+ */}
 
-          <div className="md:flex items-center gap-6">
+          <div className="flex items-center gap-3 md:gap-6">
             <a
               href="#hero"
               className="font-semibold text-xs md:text-sm text-neutral-900 dark:text-neutral-100
