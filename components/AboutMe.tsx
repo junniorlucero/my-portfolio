@@ -18,7 +18,7 @@ export default function aboutMe() {
               src="/IMG_5104_(copy).jpg"
               alt="About me picture"
               className="w-56 h-72 object-cover rounded-xl shadow-xl ring-1 ring-neutral-500/30
-              transition-transform duration-300 ease-out hover:-translate-y-3 active:-translate-y-3 focus:-translate-y-3
+              transition-transform duration-300 ease-out hover:-translate-y-3
               "
             ></img>
           </div>
