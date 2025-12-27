@@ -30,7 +30,7 @@ export default function aboutMe() {
           "
           >
             <p className="flex text-center">
-              I am a MIS & CS student who is naturally curious and loves
+              I am a MIS & CS graduate who is naturally curious and loves
               exploring new technologies. I love fixing problems with technology
               and especially programming. When I am not programming, I enjoy
               watching sports, spending time with family, collecting shoes, and

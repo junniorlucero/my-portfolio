@@ -27,8 +27,15 @@ export default function Experiences() {
       company: "University of Minnesota",
       role: "CSCI Teaching Assistant",
       location: "Minneapolis, MN",
-      period: "Jan 2024 – Present",
+      period: "Jan 2024 – Dec 2025",
       logo: "/uofmn.png",
+    },
+    {
+      company: "AspenTech",
+      role: "Associate Software Developer",
+      location: "Medina, MN",
+      period: "January 2026 - Present",
+      logo: "/aspentech.png",
     },
   ];
 
@@ -67,6 +74,7 @@ export default function Experiences() {
 
                   <div className="hidden md:flex md:col-start-2 justify-center">
                     <span className="grid h-12 w-12 place-items-center rounded-full">
+
                       {logo ? (
                         <img
                           src={logo}
@@ -76,6 +84,8 @@ export default function Experiences() {
                       ) : (
                         <span className="text-xs font-bold text-black">•</span>
                       )}
+
+                      
                     </span>
                   </div>
                 </div>

@@ -33,7 +33,6 @@ export default function ThemeToggle() {
             dark:ring-white/10 dark:hover:bg-white/5 dark:focus:ring-white/20
             transition-transform duration-300 ease-out hover:-translate-y-1"
     >
-      {" "}
       {/* here we say that on the click of this button, we will set the theme to the opposite of what it is now*/}
       {isDark ? ( //moon portion
         <img
